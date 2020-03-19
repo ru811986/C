@@ -8,6 +8,8 @@ int main() {
     upper = 100;
     step = 2;
     
+    printf("Tabla de conversión de Celsius a Fahrenheit\n");
+    
     celsius = lower;
     while(celsius <= upper) {
         fahr = (9.0/5.0)*celsius + 32;
