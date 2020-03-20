@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int c, nb;
+    
+    nb = 0;
+    while((c = getchar()) != EOF) {
+        if(c == ' ') {
+            ++nb;
+        } else {
+            nb = 0;
+            putchar(c);
+        }
+        if(nb == 1) {
+            putchar(c);
+        } else {
+            continue;
+        }
+    }
+
+    return 0;
+}
