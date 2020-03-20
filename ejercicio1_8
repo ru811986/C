@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int c, nb, nt, nl;
+    
+    nb = 0;
+    nt = 0;
+    nl = 0;
+    while((c = getchar()) != EOF) {
+        if(c == ' ')
+            ++nb;
+        if(c == '\t')
+            ++nt;
+        if(c == '\n')
+            ++nl;
+    }
+    printf("Número de blancos: %d\n", nb);
+    printf("Número de tabulaciones: %d\n", nt);
+    printf("Número de nuevas líneas: %d\n", nl);
+
+    return 0;
+}
