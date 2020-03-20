@@ -1,0 +1,14 @@
+  
+#include <stdio.h>
+
+int main() {
+    int c;
+    // si c vale distinto de -1, vale 1
+    c = 5;
+    printf("Comprobación 1: %d\n", c != EOF);
+    // si c vale igual que -1, vale 0
+    c = -1;
+    printf("Comprobación 2: %d\n", c != EOF);
+    
+    return 0;
+}
