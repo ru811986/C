@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <limits.h>
+
+int main(void) {
+    printf("CHAR %d y %d\n", CHAR_MIN, CHAR_MAX);
+    printf("SCHAR %d y %d\n", SCHAR_MIN, SCHAR_MAX);
+    printf("UCHAR 0 y %u\n", UCHAR_MAX);
+    printf("INT %d y %d\n", INT_MIN, INT_MAX);
+    printf("UINT 0 y %u\n", UINT_MAX);
+    printf("SHORT %d y %d\n", SHRT_MIN, SHRT_MAX);
+    printf("USHORT 0 y %u\n", USHRT_MAX);
+    printf("LONG %d y %d\n", LONG_MIN, LONG_MAX);
+    printf("ULONG 0 y %u\n", ULONG_MAX);
+    return 0;
+}
